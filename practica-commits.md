@@ -1,4 +1,4 @@
-# Práctica de commits — Git · ENP6 UNAM
+gi# Práctica de commits — Git · ENP6 UNAM
 
 Cada nivel te pide un cambio concreto en este archivo.  
 Edita → `git add practica-commits.md` → `git commit -m "..."`
@@ -11,9 +11,9 @@ Edita → `git add practica-commits.md` → `git commit -m "..."`
 **Commit:** `feat(perfil): agrega presentación de [tu nombre]`
 
 ```
-Nombre     : 
-GitHub     : 
-Algo sobre mí : 
+Nombre     : Gabriela Abigail Escamilla Flores
+GitHub     : https://github.com/ururawis
+Algo sobre mí : Me gusta el café 
 ```
 
 ---
@@ -24,7 +24,9 @@ Algo sobre mí :
 **Commit:** `feat(habilidades): agrega lista de habilidades`
 
 - 
-
+-Sé reposteria
+-Me gusta trabajar en equipo 
+-Sé decorar
 ---
 
 ## Nivel 3 · Corrige los errores
