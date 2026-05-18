@@ -46,9 +46,9 @@ Algo sobre mí : Me gusta el café
 **Qué hacer:** Escribe tres cosas concretas que aprendiste en esta sesión.  
 **Commit:** `docs(aprendizaje): agrega notas de la sesión`
 
-1. 
-2. 
-3. 
+1. Aprendí la historia de GitHub 
+2. Aprendí a usar los tipos de referencias rápidas para indicar en los commits qué se hizo 
+3. Aprendí información acerca de las staging area y el ciclo de vida de un archivo 
 
 ---
 
