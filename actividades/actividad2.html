@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="author" content="Gabriela Abigail Escamilla Flores">
+    <meta name="description" content="Explicar un fragmento de código usando las etiquetas vistas en clase y subir el archivo al repositorio usando Conventional Commits">
+    <title>Actividad2</title>
+</head>
+<body>
+    <!--  Títulos jerárquicos -->
+    <!--  Bloque de Code -->
+    <!--  Bloque <pre> -->
+    <!-- Párrafos -->
+    <h1>Explicación de un Código en C usando HTML</h1>
+    <h2>Código: </h2>
+    <pre><code>
+        #include <stdio.h>
+        int main() {
+            int edad;
+            printf("¿Cuántos años tienes? ");
+            scanf("%d", &edad);
+
+            if (edad >= 18) {
+                printf("Eres mayor de edad.\n");
+            } else {
+                printf("Eres menor de edad.\n");
+            }
+            return 0;
+        }
+    </code></pre>
+    <hr>
+    <h3>¿Qué hace el programa?</h3>
+    <p>El programa le pregunta al usuario su edad, una vez que el usuario ingresa su edad el programa le indica si es mayor o menor de edad.</p>
+
+    <h4>Explicación paso por paso</h4>
+
+    <p><code>#include &lt;stdio.h&gt;;</code> es la biblioteca que se está usando, maneja la entrada y salida de datos. </p>
+
+    <p><code>int main(){...}</code> Es la función principal a partir de aquí comienza el código, el contenido se escribe entre corchetes {}.<br>Devuelve un número entero, en este caso 0, para indicar que que el programa ha finalizado correctamente, en el código se ve como <code>return 0;</code></p>
+
+    <p><code>int edad;</code> Declara la variable edad de tipo entero</p>
+
+    <p><code>printf("¿Cuántos años tienes? ");</code> Imprime en la terminal la pregunta y con <code>scanf("%d", &edad);</code> recibe el dato que escribe el usuario y lo guarda en la variable <code>edad</code>.</p>
+
+    <p>Con el bloque:<pre><code>
+            if (edad >= 18) {
+                printf("Eres mayor de edad.\n");
+            } 
+            else {
+                printf("Eres menor de edad.\n");
+            }
+        </code></pre> 
+    Comprueba si el dato <code>edad</code> es mayor o igual a 18, si lo es en la terminal imprime que se es mayor de edad y si no lo es muestra que se es menor de edad. </p>
+</body>
+</html>
