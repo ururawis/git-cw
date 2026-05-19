@@ -59,12 +59,12 @@ Algo sobre mí : Me gusta el café
 
 | Comando | ¿Qué hace? |
 |---------|------------|
-| `git init` | |
-| `git status` | |
-| `git add .` | |
-| `git commit -m "..."` | |
-| `git log --oneline` | |
-| `git push` | |
+| `git init` | Convierte un directorio en un repositorio de git |
+| `git status` | Muestra información sobre el estado actual |
+| `git add .` | Añade las modificaciones a la zona de preparación |
+| `git commit -m "..."` | Guarda los cambios en el repositorio local y añade un mensaje |
+| `git log --oneline` | Te permite ver los commits |
+| `git push` | Envia los commits que están guardados en el repositorio local al repositorio remoto (GitHub)|
 
 ---
 
