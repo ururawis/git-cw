@@ -1,0 +1,36 @@
+table,th,tr,td{
+    border: 1px solid black;
+    background-color: white;
+}
+
+*{
+    background-color: rgba(221, 149, 221, 0.683);
+}
+
+h1{
+    color: white;
+}
+
+.color{
+    color: white;
+}
+
+#ruben{
+    background-color: red;
+}
+
+#aby{
+    background-color: blueviolet;
+}
+
+#evelin{
+    background-color: rgb(8, 163, 252);
+}
+
+#karla{
+    background-color: red;
+}
+
+#vladimir{
+    background-color: rgb(24, 99, 57);
+}
