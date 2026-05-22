@@ -1,13 +1,20 @@
 table,th,tr,td{
-    border: 1px solid black;
+    border: 1px solid rgb(160, 160, 160);
     background-color: white;
+    border-collapse: collapse;
+    margin: 5px;
+    padding: 5px;
 }
-
+table{
+    margin-left: 5%;
+}
 *{
-    background-color: rgba(221, 149, 221, 0.683);
+    background-color: #92973F;
+    color: #92973F;
+    font-family: monospace;
 }
 
-h1{
+h1, p{
     color: white;
 }
 
@@ -16,21 +23,77 @@ h1{
 }
 
 #ruben{
-    background-color: red;
+    background-color: #B42A3F;
+}
+#ruben:hover{
+    background-color: white;
+    color: #B42A3F;
 }
 
 #aby{
-    background-color: blueviolet;
+    background-color: #82419c;
+}
+#aby:hover{
+    background-color: white;
+    color: #82419c;
 }
 
 #evelin{
-    background-color: rgb(8, 163, 252);
+    background-color: #119BB3;
+}
+#evelin:hover{
+    background-color: white;
+    color: #119BB3;
 }
 
 #karla{
-    background-color: red;
+    background-color: #B42A3F;
+}
+#karla:hover{
+    background-color: white;
+    color: #B42A3F;
 }
 
 #vladimir{
-    background-color: rgb(24, 99, 57);
+    background-color: #B8C97F;
+}
+#vladimir:hover{
+    background-color: white;
+    color: #B8C97F;
+}
+.nota {
+    background-color: white;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+    color: #92973F;
+    width: max-content;
+}
+#sticky{
+    position: sticky;
+    background-color: white;
+    border-radius: 30px;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 20%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+}
+
+@media only screen and (max-width:500px) 
+{
+    *{
+        background-color: white;
+        color: #92973F;
+    }
+    h1{
+        color: #92973F;
+    }
+    .nota{
+        background-color: #92973F;
+        color: white;
+    }
 }
